@@ -1,4 +1,4 @@
 $("document").ready(function() {
-	var $nav-item = $("#nav").contents().find(".nav\-item");
-	alert($nav-item);
+	var $navitem = $("#nav").contents().find(".nav-item");
+	alert($navitem);
 });
