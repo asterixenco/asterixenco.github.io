@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="plugins/jquery.js"></script>
+		<script>
+			$.get("/html/nav.html", function(result){
+				alert(result);
+			});
+		</script>
+	</head>
+	<body class="nomar">
+		<div class="row nomar">
+			<object class="col-sm-3 nomar" frameBorder="0" height="600px" id="nav" data="html/nav.html"></object>
+			<object class="col-sm-9 nomar" frameBorder="0" height="600px" id="content"></object>
+		</div>		
+		<p id="test"></p>
+	</body>
+</html>
