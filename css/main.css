@@ -25,3 +25,9 @@ body {
 .window {
 	height: 97vh;
 }
+
+@media screen and (max-width: 300px) {
+	.navitem {
+		font-size: 30px;
+	}
+}
