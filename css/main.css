@@ -21,3 +21,7 @@ body {
 * {
 	font-family: "Trebuchet MS";
 }
+
+.window {
+	height: 100%;
+}
