@@ -44,6 +44,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	max-width: 15%;
-	max-height: 15%;
+	max-width: 25%;
+	max-height: 25%;
+	margin: 20px;
 }
