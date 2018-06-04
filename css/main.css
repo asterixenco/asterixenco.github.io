@@ -39,3 +39,9 @@ body {
 .tb {
 	padding: 20px;
 }
+
+.tb > img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
