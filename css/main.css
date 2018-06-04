@@ -44,7 +44,10 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	max-width: 25%;
-	max-height: 25%;
 	margin: 20px;
+}
+
+.img > img {
+	max-width: 75%;
+	max-height: 75%;
 }
