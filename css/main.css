@@ -40,11 +40,11 @@ body {
 	padding: 20px;
 }
 
-.tb > img {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 20px;
+.tb  img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .img > img {
